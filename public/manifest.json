@@ -1,0 +1,8 @@
+{
+  "short_name": "mui-closet",
+  "description": "mui-closet is a react app that demos the custom color theme create by Tzu Yin (Charlie), with the help from tools Material Theme Builder and Material-UI Theme Creator.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
