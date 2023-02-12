@@ -9,7 +9,10 @@
     "paths": {
       "@Asset/*": ["asset/*"],
       "@Component/*": ["component/*"],
-      "@Style/*": ["style/*"]
+      "@Hook/*": ["hook/*"],
+      "@Model/*": ["model/*"],
+      "@Style/*": ["style/*"],
+      "@Tool/*": ["tool/*"]
     },
     "resolveJsonModule": true,
     "allowJs": true,
