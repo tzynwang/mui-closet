@@ -12,6 +12,9 @@
     "url": "git@github.com:tzynwang/mui-closet.git"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.8",
     "@svgr/webpack": "^6.5.1",
     "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
