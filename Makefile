@@ -1,6 +1,6 @@
 include .env
 
-GIT_REPO_URL=`node -p "require('./package.json').repository.url"`
+GIT_REPO_URL=`node -p "require('../package.json').repository.url"`
 
 # 在不改動 yarn.lock 的情況下安裝套件
 .PHONY: i
@@ -31,7 +31,7 @@ preview:
 # 部署為 "gh-pages"
 .PHONY: deploy
 deploy: build
-	cd out && \
+	cd $(BUILD_DESTINATION) && \
 	git init && \
 	git remote -v | grep -w origin || git remote add origin $(GIT_REPO_URL) && \
 	git branch -m gh-pages && \
