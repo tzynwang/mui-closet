@@ -1,0 +1,40 @@
+{
+  "name": "mui-closet",
+  "version": "1.0.0",
+  "description": "mui-closet is a react app that demo the custom color theme create by Tzu Yin (Charlie), with the help from tools Material Theme Builder and Material-UI Theme Creator.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tzu Yin (Charlie)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tzynwang/mui-closet.git"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "css-loader": "^6.7.3",
+    "dotenv": "^16.0.3",
+    "esbuild-loader": "^3.0.0",
+    "esbuild-runner": "^2.2.2",
+    "fs-extra": "^11.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^7.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
